@@ -46,12 +46,12 @@ Full schematic: [schematic.pdf](schematic.pdf)
 
 ## **Case Design**
 
-TODO
+- TODO
 
 ---
 
 ## **EMI Considerations**
 
-TODO
+- TODO
 ---
 
