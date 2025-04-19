@@ -21,7 +21,7 @@ A compact wireless mechanical keyboard designed using the **ESP32-WROOM-S3** mod
 
 ## **Schematic Overview**
 
-![alt text](images/blcok_level_diagram.png)
+![alt text](images/block_level_diagram.png)
 
 The design follows a modular, hierarchical schematic structure:
 - Root (page 1)
@@ -36,27 +36,22 @@ Full schematic: [schematic.pdf](schematic.pdf)
 
 ---
 
+## **PCB Design**
+
+![alt text](images/front_view_pcb.png)
+![alt text](images/back_view_pcb.png)
+
+
+---
+
 ## **Case Design**
 
-- Enclosure designed in Fusion 360.
-- STL and STEP files available: [Download](case/)
-- Rendered views:
-
-![Top Case](images/case_top.jpg)  
-![Bottom Case](images/case_bottom.jpg)
+TODO
 
 ---
 
 ## **EMI Considerations**
 
-EMI optimizations were made at the design level. No physical testing was performed.
-
-**Design Measures:**
-- Decoupling capacitors near power pins of ESP32.
-- Ground pours under RF and digital sections.
-- Separated high-speed signals and power lines.
-- Compact trace routing to reduce emissions.
-
+TODO
 ---
 
-Let me know if you want to add firmware flow or simulation results.
