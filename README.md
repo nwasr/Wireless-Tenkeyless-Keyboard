@@ -21,15 +21,18 @@ A compact wireless mechanical keyboard designed using the **ESP32-WROOM-S3** mod
 
 ## **Schematic Overview**
 
-**System-level design includes:**
-- **ESP32-WROOM-S3** for BLE communication and GPIO-based key scanning.
-- **Key matrix** arranged in rows/columns and scanned in firmware.
-- **Power system**: 1000 mAh LiPo battery charged via **MCP73871**.
-- USB interface used for charging and potential debug access.
+![alt text](images/blcok_level_diagram.png)
 
-![Schematic Block Diagram](images/schematic_block.png)
+The design follows a modular, hierarchical schematic structure:
+- Root (page 1)
+  - Block Level Architecture (page 2)
+    - USB C (page 3)
+    - MCP73871 (page 4)
+    - LDO (page 5)
+    - MCU (ESP32-WROOM-S3) (page 6)
+    - Keyboard Matrix (page 7)
 
-Full schematic: [schematic.pdf](hardware/schematic.pdf)
+Full schematic: [schematic.pdf](schematic.pdf)
 
 ---
 
